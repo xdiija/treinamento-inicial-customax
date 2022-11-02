@@ -131,11 +131,10 @@ if($_SESSION['logado'] == 1) {
                                 <h6 class="collapse-header">Consultas:</h6>
                                 <a class="collapse-item" href="CXTRCAD001CON">Consultar Usuários</a>
                                 <a class="collapse-item" href="CXESCAD043CON">Consultar Kits</a>
+                                <a class="collapse-item" href="CXTRCAD001CONGRAF">Gráfico de Usuários</a>
                             </div>
                         </div>
-                    </li>
-                
-
+                    </li>           
                     <!-- Divider -->
                     <hr class="sidebar-divider d-none d-md-block">
 

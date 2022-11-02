@@ -52,11 +52,11 @@ class AwsDeleteObject
 			DELETE FROM s3Files WHERE (s3_file_path) = ('$caminho');
 			");
 			try {
-				$ecluir_file = $deleta_file->execute();
+				$excluir_file = $deleta_file->execute();
 			} catch (PDOException $e) {
-				$ecluir_file = $e->getMessage();
+				$excluir_file = $e->getMessage();
 			}
-			return $ecluir_file;
+			return $excluir_file;
 		}
 
 		return $status . "_?_" . $retorno;
