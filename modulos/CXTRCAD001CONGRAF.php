@@ -10,9 +10,17 @@
         <link href="./main.css" rel="stylesheet">
         <link href="./css/checkbox.css" rel="stylesheet">
         <style>
-            #chartdiv, #chartdiv2 {
+            #dynamic_chartdiv {
+            width: 50%;
+            height: 500px;
+            }
+            #dynamic_chartdiv2 {
             width: 100%;
             height: 500px;
+            }
+            #dynamic_chartdiv3 {
+            width: 100%;
+            height: 800px;
             }
         </style>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
@@ -37,7 +45,7 @@
                     <h1>Gráfico de Usuários 1</h1>
                 </div>
             </div>
-            <div id="dynamic_chartdiv"></div>
+            <div id="dynamic_chartdiv" class="col-md-12 offset-md-3"></div>
             <div class="form-row">
                 <div class="col-md-12 offset-md-4">
                     <h1>Gráfico de Usuários 2</h1>

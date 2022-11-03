@@ -38,7 +38,7 @@ CREATE TABLE `keys_amazon` (
 --
 
 INSERT INTO `keys_amazon` (`access_key`, `secret_key`, `bucket_amazon`) VALUES
-('AKIAQ5Y35CJGFTSFOT6C', 'mPvtgLPYdvRPE8BDqQBxCrnCRxmyPgWiSgnAFIwM', 'bucket-djalma');
+('***inserir access_key***', '***inserir secret_key***', 'bucket-djalma');
 
 -- --------------------------------------------------------
 
